@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>92Gallery | Automobilové printy a vizuální galerie</title>
+  <meta name="description" content="92Gallery tvoří automobilové A3 printy, vizuální galerii a moderní wall art motivy inspirované sportovními auty. Prohlédněte si galerii a shop.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://92gallery.cz/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="92Gallery">
+  <meta property="og:title" content="92Gallery | Automobilové printy a vizuální galerie">
+  <meta property="og:description" content="Automobilové A3 printy a vizuální galerie inspirovaná ikonickými sportovními auty.">
+  <meta property="og:url" content="https://92gallery.cz/">
+  <meta property="og:image" content="https://92gallery.cz/images/shop-mclaren-765lt.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="92Gallery | Automobilové printy">
+  <meta name="twitter:description" content="Prémiové A3 printy sportovních aut a moderní vizuální galerie.">
+  <meta name="twitter:image" content="https://92gallery.cz/images/shop-mclaren-765lt.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "92Gallery",
+      "url": "https://92gallery.cz/",
+      "logo": "https://92gallery.cz/images/porsche-911.png"
+    }
+  </script>
+</head>
+<body>
+  <div id="pageContent">
+    <header>
+      <nav class="site-nav">
+        <a href="index.html" class="nav-link active" data-i18n="nav.home">Domů</a>
+        <a href="gallery.html" class="nav-link" data-i18n="nav.gallery">Galerie</a>
+        <a href="shop.html" class="nav-link" data-i18n="nav.shop">Shop</a>
+        <a href="contact.html" class="nav-link" data-i18n="nav.contact">Kontakt</a>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Přepnout světlý nebo tmavý režim" data-i18n="theme.light">Tmavý režim</button>
+        <div class="locale-switcher" aria-label="Language selector">
+          <button id="localeToggle" class="locale-button" type="button">CS</button>
+          <div class="locale-menu" aria-label="Language options">
+            <button class="locale-option" type="button" data-locale="cs">CS</button>
+            <button class="locale-option" type="button" data-locale="en">EN</button>
+            <button class="locale-option" type="button" data-locale="de">DE</button>
+            <button class="locale-option" type="button" data-locale="pl">PL</button>
+          </div>
+        </div>
+      </nav>
+      <h1>92Gallery</h1>
+      <p>Úvodní stránka umělce</p>
+    </header>
+
+    <main>
+      <section class="artist-intro">
+        <div class="artist-copy">
+          <p class="eyebrow" data-i18n="index.hero.eyebrow">Umělecká prezentace</p>
+          <h1 data-i18n="index.hero.title">Vítejte ve světě 92Gallery</h1>
+          <p data-i18n="index.hero.text">Jsem autor vizuálních příběhů, který spojuje fotografii, grafiku a atmosféru do jedinečného portfolia. Prohlédněte si mou galerii a nechte se inspirovat.</p>
+          <a class="button" href="gallery.html" data-i18n="index.hero.cta">Přejít do galerie</a>
+        </div>
+      </section>
+
+      <section class="print-showcase">
+        <div class="print-showcase-copy">
+          <p class="eyebrow">Nově v shopu</p>
+          <h2>Automobilové printy jako výrazné vizuální kusy</h2>
+          <p>Vybrané motivy z 92Gallery jsou připravené jako prémiové A3 tisky na matný papír. Barevné sportovní ikony teď doplňují celý web a vedou přímo do shopu.</p>
+          <a class="button" href="shop.html">Prohlédnout shop</a>
+        </div>
+        <div class="print-showcase-art" aria-label="Ukázky produktových printů">
+          <img class="print-card print-card-main" src="images/shop-mclaren-765lt.png" alt="McLaren 765LT Print" loading="lazy" decoding="async">
+          <img class="print-card print-card-top" src="images/shop-ferrari-812.png" alt="Ferrari 812 Print" loading="lazy" decoding="async">
+          <img class="print-card print-card-bottom" src="images/shop-ford-gt-gulf.png" alt="Ford GT Gulf Print" loading="lazy" decoding="async">
+        </div>
+      </section>
+
+      <section class="achievement-banner">
+        <div class="achievement-copy">
+          <p class="eyebrow" data-i18n="index.achievements.title">Skutečné výsledky</p>
+          <h2 data-i18n="index.achievements.text">92Gallery už není jen značka — je to příběh s reálnými úspěchy v galerii, projektu a světě umění.</h2>
+        </div>
+        <div class="achievement-grid">
+          <article class="achievement-card">
+            <strong>92+</strong>
+            <p data-i18n="index.achievements.1desc">vytvořených děl od první fotografie až po velké instalace</p>
+          </article>
+          <article class="achievement-card">
+            <strong>6</strong>
+            <p data-i18n="index.achievements.2desc">zrealizovaných výstav, které zaujaly publikum v galeriích i online</p>
+          </article>
+          <article class="achievement-card">
+            <strong data-i18n="index.achievements.3title">Evropa & globálně</strong>
+            <p data-i18n="index.achievements.3desc">po jednom českém startu expandujeme mezi další evropská města i mezinárodní projekt</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="artist-info">
+        <article>
+          <h2 data-i18n="index.about.title">O mně</h2>
+          <p data-i18n="index.about.text">Můj styl je založený na silných kontrastech, čistých liniích a minimalistické eleganci. V práci kombinuji moderní estetiku s osobním přístupem.</p>
+        </article>
+        <article>
+          <h2 data-i18n="index.find.title">Co najdete v galerii</h2>
+          <p data-i18n="index.find.text">Portfolio obsahuje sérii fotografií a vizuálních prací, které reflektují atmosféru měst, světla a pohybu. Galerie je navržena tak, aby byla přehledná a zároveň dynamická.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p data-i18n="footer.copyright">© 2026 92Gallery. Umělecká vizuální prezentace.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

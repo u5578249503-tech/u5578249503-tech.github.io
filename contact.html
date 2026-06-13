@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt | 92Gallery</title>
+  <meta name="description" content="Kontaktujte 92Gallery kvůli automobilovým A3 printům, vizuálním zakázkám, spolupráci nebo dotazům k objednávce.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://92gallery.cz/contact.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="92Gallery">
+  <meta property="og:title" content="Kontakt | 92Gallery">
+  <meta property="og:description" content="Kontakt pro objednávky automobilových printů a spolupráci s 92Gallery.">
+  <meta property="og:url" content="https://92gallery.cz/contact.html">
+  <meta property="og:image" content="https://92gallery.cz/images/shop-ford-gt-gulf.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kontakt | 92Gallery">
+  <meta name="twitter:description" content="Objednávky automobilových printů a spolupráce s 92Gallery.">
+  <meta name="twitter:image" content="https://92gallery.cz/images/shop-ford-gt-gulf.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+  <div id="pageContent">
+    <header>
+      <nav class="site-nav">
+        <a href="index.html" class="nav-link" data-i18n="nav.home">Domů</a>
+        <a href="gallery.html" class="nav-link" data-i18n="nav.gallery">Galerie</a>
+        <a href="shop.html" class="nav-link" data-i18n="nav.shop">Shop</a>
+        <a href="contact.html" class="nav-link active" data-i18n="nav.contact">Kontakt</a>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Přepnout světlý nebo tmavý režim" data-i18n="theme.light">Tmavý režim</button>
+        <div class="locale-switcher" aria-label="Language selector">
+          <button id="localeToggle" class="locale-button" type="button">CS</button>
+          <div class="locale-menu" aria-label="Language options">
+            <button class="locale-option" type="button" data-locale="cs">CS</button>
+            <button class="locale-option" type="button" data-locale="en">EN</button>
+            <button class="locale-option" type="button" data-locale="de">DE</button>
+            <button class="locale-option" type="button" data-locale="pl">PL</button>
+          </div>
+        </div>
+      </nav>
+      <h1 data-i18n="contact.header.title">Kontakt</h1>
+      <p data-i18n="contact.header.text">Ozvěte se mi a domluvme spolupráci nebo se jen poraďme o vašem projektu.</p>
+    </header>
+
+    <main>
+      <section class="artist-intro contact-section">
+        <div class="contact-grid">
+          <div class="contact-copy">
+            <h2 data-i18n="contact.start.title">Začněme společně</h2>
+            <p data-i18n="contact.start.text">Máte otázku, nabídku nebo chcete vědět více o mé tvorbě? Rád si s vámi proberu možnosti spolupráce, formát, termín i cenu.</p>
+            <div class="contact-details">
+              <p><strong data-i18n="contact.email.label">Email:</strong> <a href="mailto:info@92gallery.cz">info@92gallery.cz</a></p>
+              <p><strong data-i18n="contact.phone.label">Telefon:</strong> <a href="tel:+420123456789">+420 123 456 789</a></p>
+              <p><strong data-i18n="contact.location.label">Sídlo:</strong> Praha, Česká republika</p>
+            </div>
+            <a class="button" href="index.html" data-i18n="contact.back">Zpět na úvod</a>
+          </div>
+
+          <div class="contact-form">
+            <h2 data-i18n="contact.form.title">Pošlete zprávu</h2>
+            <form>
+              <label>
+                <span data-i18n="contact.form.name.label">Jméno</span>
+                <input type="text" name="name" placeholder="Vaše jméno" data-i18n-placeholder="contact.form.name.placeholder" required>
+              </label>
+              <label>
+                <span data-i18n="contact.form.email.label">Email</span>
+                <input type="email" name="email" placeholder="email@priklad.cz" data-i18n-placeholder="contact.form.email.placeholder" required>
+              </label>
+              <label>
+                <span data-i18n="contact.form.message.label">Zpráva</span>
+                <textarea name="message" rows="6" placeholder="Napište mi, jak vám mohu pomoci..." data-i18n-placeholder="contact.form.message.placeholder" required></textarea>
+              </label>
+              <button class="button" type="submit" data-i18n="contact.form.submit">Odeslat</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p data-i18n="footer.copyright">© 2026 92Gallery. Umělecká vizuální prezentace.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
